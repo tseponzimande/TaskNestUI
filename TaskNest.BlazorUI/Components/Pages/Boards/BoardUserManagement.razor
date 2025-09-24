@@ -1,0 +1,56 @@
+﻿@page "/boards/{BoardId:guid}/users"
+
+<RadzenStack Orientation="Orientation.Vertical" Gap="1rem">
+    <RadzenStack Orientation="Orientation.Horizontal" JustifyContent="JustifyContent.SpaceBetween" AlignItems="AlignItems.Center">
+        <RadzenText TextStyle="TextStyle.H3">Manage Board Users</RadzenText>
+        <RadzenButton Text="Back to Board" Icon="arrow_back" ButtonStyle="ButtonStyle.Secondary" Click="@(() => NavigationManager.NavigateTo($"/boards/{BoardId}"))" />
+    </RadzenStack>
+
+    <RadzenCard>
+        <RadzenText TextStyle="TextStyle.Subtitle1" Class="mb-3">Add User</RadzenText>
+        <RadzenTemplateForm TItem="AddBoardUserDto" Data="@newUser" Submit="@AddUser">
+            <RadzenStack Orientation="Orientation.Horizontal" Gap="1rem" AlignItems="AlignItems.Center">
+                <RadzenFormField Text="Email" Style="width: 100%">
+                    <RadzenTextBox @bind-Value="@newUser.UserEmail" Name="UserEmail" Style="width: 100%" />
+                    <RadzenRequiredValidator Component="UserEmail" Text="Email is required" />
+                    <RadzenEmailValidator Component="UserEmail" Text="Please enter a valid email" />
+                </RadzenFormField>
+
+                <RadzenFormField Text="Role" Style="width: 200px">
+                    <RadzenDropDown @bind-Value="@newUser.Role" Data="@Enum.GetValues(typeof(BoardUserRole))" Name="Role" />
+                </RadzenFormField>
+
+                <RadzenButton Text="Add" ButtonType="ButtonType.Submit" ButtonStyle="ButtonStyle.Primary" />
+            </RadzenStack>
+        </RadzenTemplateForm>
+    </RadzenCard>
+
+    <RadzenProgressBar Value="100" Visible="@loading" Mode="ProgressBarMode.Indeterminate" />
+
+    @if (!loading && (boardUsers == null || !boardUsers.Any()))
+    {
+        <RadzenAlert AlertStyle="AlertStyle.Info" ShowIcon="true" Variant="Variant.Filled">
+            No users have been added to this board yet.
+        </RadzenAlert>
+    }
+    else if (!loading)
+    {
+        <RadzenDataGrid Data="@boardUsers" TItem="BoardUserDto" AllowPaging="true" PageSize="10">
+            <Columns>
+                <RadzenDataGridColumn TItem="BoardUserDto" Property="UserEmail" Title="Email" />
+                <RadzenDataGridColumn TItem="BoardUserDto" Property="Role" Title="Role">
+                    <Template Context="user">
+                        <RadzenDropDown Value="@user.Role" Data="@Enum.GetValues(typeof(BoardUserRole))"
+                                        Change="@(args => UpdateUserRole(user.ApplicationUserId.ToString(), (BoardUserRole)args))" />
+                    </Template>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="BoardUserDto" Title="Actions" TextAlign="TextAlign.Center" Width="100px">
+                    <Template Context="user">
+                        <RadzenButton Icon="delete" ButtonStyle="ButtonStyle.Danger" Size="ButtonSize.Small"
+                                      Click="@(() => ConfirmRemoveUser(user.ApplicationUserId.ToString()))" />
+                    </Template>
+                </RadzenDataGridColumn>
+            </Columns>
+        </RadzenDataGrid>
+    }
+</RadzenStack>

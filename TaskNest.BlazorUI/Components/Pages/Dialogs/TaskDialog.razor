@@ -1,0 +1,27 @@
+﻿<RadzenTemplateForm TItem="TaskItemDto" Data="@Task" Submit="@Submit">
+
+    <RadzenStack Orientation="Orientation.Vertical" Gap="1rem">
+        <RadzenFormField Text="Title" Variant="Variant.Outlined">
+            <RadzenTextBox @bind-Value="@Task.Title" Name="Title" />
+            <RadzenRequiredValidator Component="Title" Text="Title is required" />
+        </RadzenFormField>
+
+        <RadzenFormField Text="Description" Variant="Variant.Outlined">
+            <RadzenTextArea @bind-Value="@Task.Description" Name="Description" Rows="3" />
+        </RadzenFormField>
+
+        <RadzenFormField Text="Due Date" Variant="Variant.Outlined">
+            <RadzenDatePicker @bind-Value="@Task.DueDate" Name="DueDate" DateFormat="MM/dd/yyyy" />
+        </RadzenFormField>
+
+        <RadzenFormField Text="Column" Variant="Variant.Outlined">
+            <RadzenDropDown @bind-Value="@Task.ColumnId" Data="@Columns" TextProperty="Name" ValueProperty="Id" Name="ColumnId" />
+            <RadzenRequiredValidator Component="ColumnId" Text="Column is required" />
+        </RadzenFormField>
+
+        <RadzenStack Orientation="Orientation.Horizontal" JustifyContent="JustifyContent.End" Gap="0.5rem" Class="mt-3">
+            <RadzenButton Text="Cancel" ButtonStyle="ButtonStyle.Light" Click="@(() => DialogService.Close(null))" />
+            <RadzenButton Text="Save" ButtonType="ButtonType.Submit" ButtonStyle="ButtonStyle.Primary" />
+        </RadzenStack>
+    </RadzenStack>
+</RadzenTemplateForm>

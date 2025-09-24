@@ -1,0 +1,78 @@
+﻿@page "/boards/{Id:guid}"
+
+<RadzenStack Orientation="Orientation.Vertical" Gap="1rem">
+    <RadzenStack Orientation="Orientation.Horizontal" JustifyContent="JustifyContent.SpaceBetween" AlignItems="AlignItems.Center">
+        <RadzenStack Orientation="Orientation.Vertical" Gap="0">
+            <RadzenText TextStyle="TextStyle.H3">@board?.Name</RadzenText>
+            <RadzenText TextStyle="TextStyle.Body1" class="text-muted">@board?.Description</RadzenText>
+        </RadzenStack>
+        <RadzenStack Orientation="Orientation.Horizontal" Gap="0.5rem">
+            <RadzenButton Text="Add Column" Icon="add" ButtonStyle="ButtonStyle.Secondary" Click="@ShowAddColumnDialog" />
+            <RadzenButton Text="Manage Users" Icon="people" ButtonStyle="ButtonStyle.Secondary" Click="@ShowBoardUsersDialog" />
+        </RadzenStack>
+    </RadzenStack>
+
+    <!-- Search and Filter Section -->
+    <RadzenStack Orientation="Orientation.Vertical" Gap="1rem" Class="mb-4">
+        <RadzenCard>
+            <RadzenStack Orientation="Orientation.Horizontal" Gap="1rem" AlignItems="AlignItems.Center">
+                <RadzenTextBox Placeholder="Search tasks..." @bind-Value="@searchTerm" Change="@FilterTasks" Style="width: 100%" />
+
+                <RadzenDropDown @bind-Value="@selectedFilter" Data="@filterOptions" TextProperty="Text" ValueProperty="Value"
+                                Change="@FilterTasks" Style="width: 200px" />
+
+                <RadzenButton Icon="refresh" Text="Reset" Click="@ResetFilters" ButtonStyle="ButtonStyle.Secondary" />
+            </RadzenStack>
+        </RadzenCard>
+    </RadzenStack>
+
+    <RadzenProgressBar Value="100" Visible="@loading" Mode="ProgressBarMode.Indeterminate" />
+
+    @if (!loading && (columns == null || !columns.Any()))
+    {
+        <RadzenAlert AlertStyle="AlertStyle.Info" ShowIcon="true" Variant="Variant.Filled">
+            This board has no columns yet. Add a column to get started.
+        </RadzenAlert>
+    }
+    else if (!loading)
+    {
+        <div class="board-container">
+            @foreach (var column in columns)
+            {
+                <div class="board-column">
+                    <div class="column-header">
+                        <RadzenStack Orientation="Orientation.Horizontal" JustifyContent="JustifyContent.SpaceBetween" AlignItems="AlignItems.Center" Style="width: 100%">
+                            <RadzenText TextStyle="TextStyle.H6" Style="margin: 0">@column.Name</RadzenText>
+                            <RadzenStack Orientation="Orientation.Horizontal" Gap="0">
+                                <RadzenButton Icon="edit" ButtonStyle="ButtonStyle.Light" Size="ButtonSize.Small" Click="() => EditColumn(column)" />
+                                <RadzenButton Icon="delete" ButtonStyle="ButtonStyle.Light" Size="ButtonSize.Small" Click="() => ConfirmDeleteColumn(column.Id)" />
+                            </RadzenStack>
+                        </RadzenStack>
+                    </div>
+
+                    <div class="column-tasks" data-column-id="@column.Id">
+                        @if (tasksByColumn.ContainsKey(column.Id) && tasksByColumn[column.Id].Any())
+                        {
+                            @foreach (var task in tasksByColumn[column.Id])
+                            {
+                                <div class="task-card" data-task-id="@task.Id" @onclick="() => EditTask(task)">
+                                    <RadzenStack Orientation="Orientation.Vertical" Gap="0.5rem">
+                                        <RadzenText TextStyle="TextStyle.H6">@task.Title</RadzenText>
+                                        <RadzenText TextStyle="TextStyle.Body2">
+                                            @(task.Description?.Length > 50 ? task.Description.Substring(0, 50) + "..." : task.Description)
+                                        </RadzenText>
+                                        @if (task.DueDate.HasValue)
+                                        {
+                                            <RadzenBadge BadgeStyle="@(task.DueDate < DateTime.Now ? BadgeStyle.Danger : BadgeStyle.Info)" Text="@task.DueDate.Value.ToShortDateString()" />
+                                        }
+                                    </RadzenStack>
+                                </div>
+                            }
+                        }
+                        <RadzenButton Text="Add Task" Icon="add" ButtonStyle="ButtonStyle.Light" Click="() => ShowAddTaskDialog(column.Id)" Style="width: 100%; margin-top: 8px;" />
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</RadzenStack>

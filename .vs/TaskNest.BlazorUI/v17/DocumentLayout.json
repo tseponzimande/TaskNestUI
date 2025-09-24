@@ -1,0 +1,653 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|c:\\pp\\tasknest_app\\tasknest.blazorui\\tasknest.blazorui\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|solutionrelative:tasknest.blazorui\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|c:\\pp\\tasknest_app\\tasknest.blazorui\\tasknest.blazorui\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|solutionrelative:tasknest.blazorui\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|c:\\pp\\tasknest_app\\tasknest.blazorui\\tasknest.blazorui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|solutionrelative:tasknest.blazorui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|c:\\pp\\tasknest_app\\tasknest.blazorui\\tasknest.blazorui\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|solutionrelative:tasknest.blazorui\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|c:\\pp\\tasknest_app\\tasknest.blazorui\\tasknest.blazorui\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|solutionrelative:tasknest.blazorui\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|c:\\pp\\tasknest_app\\tasknest.blazorui\\tasknest.blazorui\\constances\\boarduserrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|solutionrelative:tasknest.blazorui\\constances\\boarduserrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|c:\\pp\\tasknest_app\\tasknest.blazorui\\tasknest.blazorui\\components\\pages\\services\\signalrservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|solutionrelative:tasknest.blazorui\\components\\pages\\services\\signalrservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|c:\\pp\\tasknest_app\\tasknest.blazorui\\tasknest.blazorui\\components\\pages\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|solutionrelative:tasknest.blazorui\\components\\pages\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|c:\\pp\\tasknest_app\\tasknest.blazorui\\tasknest.blazorui\\components\\pages\\home\\homepage.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|solutionrelative:tasknest.blazorui\\components\\pages\\home\\homepage.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|c:\\pp\\tasknest_app\\tasknest.blazorui\\tasknest.blazorui\\components\\pages\\home\\homepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|solutionrelative:tasknest.blazorui\\components\\pages\\home\\homepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|c:\\pp\\tasknest_app\\tasknest.blazorui\\tasknest.blazorui\\components\\pages\\dtos\\taskitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|solutionrelative:tasknest.blazorui\\components\\pages\\dtos\\taskitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|c:\\pp\\tasknest_app\\tasknest.blazorui\\tasknest.blazorui\\components\\pages\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|solutionrelative:tasknest.blazorui\\components\\pages\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|c:\\pp\\tasknest_app\\tasknest.blazorui\\tasknest.blazorui\\components\\pages\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|solutionrelative:tasknest.blazorui\\components\\pages\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|c:\\pp\\tasknest_app\\tasknest.blazorui\\tasknest.blazorui\\components\\pages\\dtos\\boarduserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|solutionrelative:tasknest.blazorui\\components\\pages\\dtos\\boarduserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|c:\\pp\\tasknest_app\\tasknest.blazorui\\tasknest.blazorui\\components\\pages\\dtos\\boardcolumndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|solutionrelative:tasknest.blazorui\\components\\pages\\dtos\\boardcolumndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|c:\\pp\\tasknest_app\\tasknest.blazorui\\tasknest.blazorui\\components\\pages\\dtos\\addboarduserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|solutionrelative:tasknest.blazorui\\components\\pages\\dtos\\addboarduserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|c:\\pp\\tasknest_app\\tasknest.blazorui\\tasknest.blazorui\\components\\pages\\dialogs\\taskdialog.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|solutionrelative:tasknest.blazorui\\components\\pages\\dialogs\\taskdialog.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|c:\\pp\\tasknest_app\\tasknest.blazorui\\tasknest.blazorui\\components\\pages\\dialogs\\taskdialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|solutionrelative:tasknest.blazorui\\components\\pages\\dialogs\\taskdialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|c:\\pp\\tasknest_app\\tasknest.blazorui\\tasknest.blazorui\\components\\pages\\dialogs\\columndialog.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|solutionrelative:tasknest.blazorui\\components\\pages\\dialogs\\columndialog.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|c:\\pp\\tasknest_app\\tasknest.blazorui\\tasknest.blazorui\\components\\pages\\dialogs\\columndialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|solutionrelative:tasknest.blazorui\\components\\pages\\dialogs\\columndialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|c:\\pp\\tasknest_app\\tasknest.blazorui\\tasknest.blazorui\\components\\pages\\dialogs\\boarddialog.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|solutionrelative:tasknest.blazorui\\components\\pages\\dialogs\\boarddialog.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|c:\\pp\\tasknest_app\\tasknest.blazorui\\tasknest.blazorui\\components\\pages\\dialogs\\boarddialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|solutionrelative:tasknest.blazorui\\components\\pages\\dialogs\\boarddialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|c:\\pp\\tasknest_app\\tasknest.blazorui\\tasknest.blazorui\\components\\pages\\boards\\boardusermanagement.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|solutionrelative:tasknest.blazorui\\components\\pages\\boards\\boardusermanagement.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|c:\\pp\\tasknest_app\\tasknest.blazorui\\tasknest.blazorui\\components\\pages\\boards\\boardusermanagement.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|solutionrelative:tasknest.blazorui\\components\\pages\\boards\\boardusermanagement.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|c:\\pp\\tasknest_app\\tasknest.blazorui\\tasknest.blazorui\\components\\pages\\boards\\boardlist.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|solutionrelative:tasknest.blazorui\\components\\pages\\boards\\boardlist.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|c:\\pp\\tasknest_app\\tasknest.blazorui\\tasknest.blazorui\\components\\pages\\boards\\boardlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|solutionrelative:tasknest.blazorui\\components\\pages\\boards\\boardlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|c:\\pp\\tasknest_app\\tasknest.blazorui\\tasknest.blazorui\\components\\pages\\boards\\boarddetails.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|solutionrelative:tasknest.blazorui\\components\\pages\\boards\\boarddetails.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|c:\\pp\\tasknest_app\\tasknest.blazorui\\tasknest.blazorui\\components\\pages\\boards\\boarddetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|solutionrelative:tasknest.blazorui\\components\\pages\\boards\\boarddetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|c:\\pp\\tasknest_app\\tasknest.blazorui\\tasknest.blazorui\\components\\pages\\account\\register.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|solutionrelative:tasknest.blazorui\\components\\pages\\account\\register.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|c:\\pp\\tasknest_app\\tasknest.blazorui\\tasknest.blazorui\\components\\pages\\account\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|solutionrelative:tasknest.blazorui\\components\\pages\\account\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|c:\\pp\\tasknest_app\\tasknest.blazorui\\tasknest.blazorui\\components\\pages\\account\\login.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|solutionrelative:tasknest.blazorui\\components\\pages\\account\\login.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|c:\\pp\\tasknest_app\\tasknest.blazorui\\tasknest.blazorui\\components\\pages\\account\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|solutionrelative:tasknest.blazorui\\components\\pages\\account\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|c:\\pp\\tasknest_app\\tasknest.blazorui\\tasknest.blazorui\\components\\layout\\navmenu.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|solutionrelative:tasknest.blazorui\\components\\layout\\navmenu.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|c:\\pp\\tasknest_app\\tasknest.blazorui\\tasknest.blazorui\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|solutionrelative:tasknest.blazorui\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|c:\\pp\\tasknest_app\\tasknest.blazorui\\tasknest.blazorui\\components\\layout\\mainlayout.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|solutionrelative:tasknest.blazorui\\components\\layout\\mainlayout.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|c:\\pp\\tasknest_app\\tasknest.blazorui\\tasknest.blazorui\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|solutionrelative:tasknest.blazorui\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|c:\\pp\\tasknest_app\\tasknest.blazorui\\tasknest.blazorui\\wwwroot\\js\\dragdrop.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|solutionrelative:tasknest.blazorui\\wwwroot\\js\\dragdrop.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|c:\\pp\\tasknest_app\\tasknest.blazorui\\tasknest.blazorui\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0DA10E93-53C2-4BFA-AEF2-D11406688C22}|TaskNest.BlazorUI\\TaskNest.BlazorUI.csproj|solutionrelative:tasknest.blazorui\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 22,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\Account\\Login.razor",
+              "RelativeDocumentMoniker": "TaskNest.BlazorUI\\Components\\Pages\\Account\\Login.razor",
+              "ToolTip": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\Account\\Login.razor",
+              "RelativeToolTip": "TaskNest.BlazorUI\\Components\\Pages\\Account\\Login.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-21T12:11:26.626Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Login.razor.cs",
+              "DocumentMoniker": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\Account\\Login.razor.cs",
+              "RelativeDocumentMoniker": "TaskNest.BlazorUI\\Components\\Pages\\Account\\Login.razor.cs",
+              "ToolTip": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\Account\\Login.razor.cs",
+              "RelativeToolTip": "TaskNest.BlazorUI\\Components\\Pages\\Account\\Login.razor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T12:11:33.291Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "TaskNest.BlazorUI\\Components\\Pages\\DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "TaskNest.BlazorUI\\Components\\Pages\\DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T12:14:58.387Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Register.razor",
+              "DocumentMoniker": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\Account\\Register.razor",
+              "RelativeDocumentMoniker": "TaskNest.BlazorUI\\Components\\Pages\\Account\\Register.razor",
+              "ToolTip": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\Account\\Register.razor",
+              "RelativeToolTip": "TaskNest.BlazorUI\\Components\\Pages\\Account\\Register.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-21T15:56:55.538Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Register.razor.cs",
+              "DocumentMoniker": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\Account\\Register.razor.cs",
+              "RelativeDocumentMoniker": "TaskNest.BlazorUI\\Components\\Pages\\Account\\Register.razor.cs",
+              "ToolTip": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\Account\\Register.razor.cs",
+              "RelativeToolTip": "TaskNest.BlazorUI\\Components\\Pages\\Account\\Register.razor.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T15:56:58.694Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "TaskNest.BlazorUI\\Components\\Pages\\DTOs\\RegisterDto.cs",
+              "ToolTip": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\DTOs\\RegisterDto.cs",
+              "RelativeToolTip": "TaskNest.BlazorUI\\Components\\Pages\\DTOs\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T15:31:36.913Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BoardList.razor.cs",
+              "DocumentMoniker": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\Boards\\BoardList.razor.cs",
+              "RelativeDocumentMoniker": "TaskNest.BlazorUI\\Components\\Pages\\Boards\\BoardList.razor.cs",
+              "ToolTip": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\Boards\\BoardList.razor.cs",
+              "RelativeToolTip": "TaskNest.BlazorUI\\Components\\Pages\\Boards\\BoardList.razor.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAswFoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T15:34:57.904Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BoardList.razor",
+              "DocumentMoniker": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\Boards\\BoardList.razor",
+              "RelativeDocumentMoniker": "TaskNest.BlazorUI\\Components\\Pages\\Boards\\BoardList.razor",
+              "ToolTip": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\Boards\\BoardList.razor",
+              "RelativeToolTip": "TaskNest.BlazorUI\\Components\\Pages\\Boards\\BoardList.razor",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwBoAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-21T15:34:25.913Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BoardDialog.razor.cs",
+              "DocumentMoniker": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\Dialogs\\BoardDialog.razor.cs",
+              "RelativeDocumentMoniker": "TaskNest.BlazorUI\\Components\\Pages\\Dialogs\\BoardDialog.razor.cs",
+              "ToolTip": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\Dialogs\\BoardDialog.razor.cs",
+              "RelativeToolTip": "TaskNest.BlazorUI\\Components\\Pages\\Dialogs\\BoardDialog.razor.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA9wCIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T15:51:19.847Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BoardDialog.razor",
+              "DocumentMoniker": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\Dialogs\\BoardDialog.razor",
+              "RelativeDocumentMoniker": "TaskNest.BlazorUI\\Components\\Pages\\Dialogs\\BoardDialog.razor",
+              "ToolTip": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\Dialogs\\BoardDialog.razor",
+              "RelativeToolTip": "TaskNest.BlazorUI\\Components\\Pages\\Dialogs\\BoardDialog.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-21T15:50:53.022Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BoardDetails.razor",
+              "DocumentMoniker": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\Boards\\BoardDetails.razor",
+              "RelativeDocumentMoniker": "TaskNest.BlazorUI\\Components\\Pages\\Boards\\BoardDetails.razor",
+              "ToolTip": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\Boards\\BoardDetails.razor",
+              "RelativeToolTip": "TaskNest.BlazorUI\\Components\\Pages\\Boards\\BoardDetails.razor",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAwwDkAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-21T15:58:02.122Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BoardDetails.razor.cs",
+              "DocumentMoniker": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\Boards\\BoardDetails.razor.cs",
+              "RelativeDocumentMoniker": "TaskNest.BlazorUI\\Components\\Pages\\Boards\\BoardDetails.razor.cs",
+              "ToolTip": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\Boards\\BoardDetails.razor.cs",
+              "RelativeToolTip": "TaskNest.BlazorUI\\Components\\Pages\\Boards\\BoardDetails.razor.cs",
+              "ViewState": "AgIAACUBAAAAAAAAAAAswC8BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T15:58:12.909Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BoardColumnDto.cs",
+              "DocumentMoniker": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\DTOs\\BoardColumnDto.cs",
+              "RelativeDocumentMoniker": "TaskNest.BlazorUI\\Components\\Pages\\DTOs\\BoardColumnDto.cs",
+              "ToolTip": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\DTOs\\BoardColumnDto.cs",
+              "RelativeToolTip": "TaskNest.BlazorUI\\Components\\Pages\\DTOs\\BoardColumnDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T16:01:25.858Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TaskItemDto.cs",
+              "DocumentMoniker": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\DTOs\\TaskItemDto.cs",
+              "RelativeDocumentMoniker": "TaskNest.BlazorUI\\Components\\Pages\\DTOs\\TaskItemDto.cs",
+              "ToolTip": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\DTOs\\TaskItemDto.cs",
+              "RelativeToolTip": "TaskNest.BlazorUI\\Components\\Pages\\DTOs\\TaskItemDto.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T16:02:30.907Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ColumnDialog.razor.cs",
+              "DocumentMoniker": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\Dialogs\\ColumnDialog.razor.cs",
+              "RelativeDocumentMoniker": "TaskNest.BlazorUI\\Components\\Pages\\Dialogs\\ColumnDialog.razor.cs",
+              "ToolTip": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\Dialogs\\ColumnDialog.razor.cs",
+              "RelativeToolTip": "TaskNest.BlazorUI\\Components\\Pages\\Dialogs\\ColumnDialog.razor.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAswCkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T16:07:22.154Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ColumnDialog.razor",
+              "DocumentMoniker": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\Dialogs\\ColumnDialog.razor",
+              "RelativeDocumentMoniker": "TaskNest.BlazorUI\\Components\\Pages\\Dialogs\\ColumnDialog.razor",
+              "ToolTip": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\Dialogs\\ColumnDialog.razor",
+              "RelativeToolTip": "TaskNest.BlazorUI\\Components\\Pages\\Dialogs\\ColumnDialog.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-21T16:07:15.007Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TaskDialog.razor.cs",
+              "DocumentMoniker": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\Dialogs\\TaskDialog.razor.cs",
+              "RelativeDocumentMoniker": "TaskNest.BlazorUI\\Components\\Pages\\Dialogs\\TaskDialog.razor.cs",
+              "ToolTip": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\Dialogs\\TaskDialog.razor.cs",
+              "RelativeToolTip": "TaskNest.BlazorUI\\Components\\Pages\\Dialogs\\TaskDialog.razor.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAswCEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T16:11:24.684Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TaskDialog.razor",
+              "DocumentMoniker": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\Dialogs\\TaskDialog.razor",
+              "RelativeDocumentMoniker": "TaskNest.BlazorUI\\Components\\Pages\\Dialogs\\TaskDialog.razor",
+              "ToolTip": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\Dialogs\\TaskDialog.razor",
+              "RelativeToolTip": "TaskNest.BlazorUI\\Components\\Pages\\Dialogs\\TaskDialog.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-21T16:11:16.821Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BoardUserManagement.razor.cs",
+              "DocumentMoniker": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\Boards\\BoardUserManagement.razor.cs",
+              "RelativeDocumentMoniker": "TaskNest.BlazorUI\\Components\\Pages\\Boards\\BoardUserManagement.razor.cs",
+              "ToolTip": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\Boards\\BoardUserManagement.razor.cs",
+              "RelativeToolTip": "TaskNest.BlazorUI\\Components\\Pages\\Boards\\BoardUserManagement.razor.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAswG8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T16:16:02.27Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BoardUserManagement.razor",
+              "DocumentMoniker": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\Boards\\BoardUserManagement.razor",
+              "RelativeDocumentMoniker": "TaskNest.BlazorUI\\Components\\Pages\\Boards\\BoardUserManagement.razor",
+              "ToolTip": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\Boards\\BoardUserManagement.razor",
+              "RelativeToolTip": "TaskNest.BlazorUI\\Components\\Pages\\Boards\\BoardUserManagement.razor",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwCIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-21T16:15:54.661Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AddBoardUserDto.cs",
+              "DocumentMoniker": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\DTOs\\AddBoardUserDto.cs",
+              "RelativeDocumentMoniker": "TaskNest.BlazorUI\\Components\\Pages\\DTOs\\AddBoardUserDto.cs",
+              "ToolTip": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\DTOs\\AddBoardUserDto.cs",
+              "RelativeToolTip": "TaskNest.BlazorUI\\Components\\Pages\\DTOs\\AddBoardUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T16:20:59.87Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BoardUserDto.cs",
+              "DocumentMoniker": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\DTOs\\BoardUserDto.cs",
+              "RelativeDocumentMoniker": "TaskNest.BlazorUI\\Components\\Pages\\DTOs\\BoardUserDto.cs",
+              "ToolTip": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\DTOs\\BoardUserDto.cs",
+              "RelativeToolTip": "TaskNest.BlazorUI\\Components\\Pages\\DTOs\\BoardUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T16:26:10.538Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "TaskNest.BlazorUI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "TaskNest.BlazorUI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-24T09:45:40.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\Services\\ApiService.cs",
+              "RelativeDocumentMoniker": "TaskNest.BlazorUI\\Components\\Pages\\Services\\ApiService.cs",
+              "ToolTip": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\Services\\ApiService.cs",
+              "RelativeToolTip": "TaskNest.BlazorUI\\Components\\Pages\\Services\\ApiService.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAgwIQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T17:05:56.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SignalRService.cs",
+              "DocumentMoniker": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\Services\\SignalRService.cs",
+              "RelativeDocumentMoniker": "TaskNest.BlazorUI\\Components\\Pages\\Services\\SignalRService.cs",
+              "ToolTip": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\Services\\SignalRService.cs",
+              "RelativeToolTip": "TaskNest.BlazorUI\\Components\\Pages\\Services\\SignalRService.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAkwGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T17:09:04.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\App.razor",
+              "RelativeDocumentMoniker": "TaskNest.BlazorUI\\Components\\App.razor",
+              "ToolTip": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\App.razor",
+              "RelativeToolTip": "TaskNest.BlazorUI\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-21T16:39:14.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BoardUserRole.cs",
+              "DocumentMoniker": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Constances\\BoardUserRole.cs",
+              "RelativeDocumentMoniker": "TaskNest.BlazorUI\\Constances\\BoardUserRole.cs",
+              "ToolTip": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Constances\\BoardUserRole.cs",
+              "RelativeToolTip": "TaskNest.BlazorUI\\Constances\\BoardUserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T16:24:34.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "TaskNest.BlazorUI\\Extensions\\ServiceCollectionExtensions.cs",
+              "ToolTip": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "TaskNest.BlazorUI\\Extensions\\ServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwCAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T17:04:37.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Globals.cs",
+              "DocumentMoniker": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Globals.cs",
+              "RelativeDocumentMoniker": "TaskNest.BlazorUI\\Globals.cs",
+              "ToolTip": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Globals.cs",
+              "RelativeToolTip": "TaskNest.BlazorUI\\Globals.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T17:06:26.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Program.cs",
+              "RelativeDocumentMoniker": "TaskNest.BlazorUI\\Program.cs",
+              "ToolTip": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Program.cs",
+              "RelativeToolTip": "TaskNest.BlazorUI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T17:04:43.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomePage.razor.cs",
+              "DocumentMoniker": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\Home\\HomePage.razor.cs",
+              "RelativeDocumentMoniker": "TaskNest.BlazorUI\\Components\\Pages\\Home\\HomePage.razor.cs",
+              "ToolTip": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\Home\\HomePage.razor.cs",
+              "RelativeToolTip": "TaskNest.BlazorUI\\Components\\Pages\\Home\\HomePage.razor.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAQwA8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T16:59:50.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomePage.razor",
+              "DocumentMoniker": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\Home\\HomePage.razor",
+              "RelativeDocumentMoniker": "TaskNest.BlazorUI\\Components\\Pages\\Home\\HomePage.razor",
+              "ToolTip": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Pages\\Home\\HomePage.razor",
+              "RelativeToolTip": "TaskNest.BlazorUI\\Components\\Pages\\Home\\HomePage.razor",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwD8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-21T16:59:43.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "NavMenu.razor.cs",
+              "DocumentMoniker": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Layout\\NavMenu.razor.cs",
+              "RelativeDocumentMoniker": "TaskNest.BlazorUI\\Components\\Layout\\NavMenu.razor.cs",
+              "ToolTip": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Layout\\NavMenu.razor.cs",
+              "RelativeToolTip": "TaskNest.BlazorUI\\Components\\Layout\\NavMenu.razor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T16:30:30.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "TaskNest.BlazorUI\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "TaskNest.BlazorUI\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-21T16:30:18.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "MainLayout.razor.cs",
+              "DocumentMoniker": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Layout\\MainLayout.razor.cs",
+              "RelativeDocumentMoniker": "TaskNest.BlazorUI\\Components\\Layout\\MainLayout.razor.cs",
+              "ToolTip": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Layout\\MainLayout.razor.cs",
+              "RelativeToolTip": "TaskNest.BlazorUI\\Components\\Layout\\MainLayout.razor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T16:35:44.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "TaskNest.BlazorUI\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "TaskNest.BlazorUI\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-21T16:34:57.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "dragdrop.js",
+              "DocumentMoniker": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\wwwroot\\js\\dragdrop.js",
+              "RelativeDocumentMoniker": "TaskNest.BlazorUI\\wwwroot\\js\\dragdrop.js",
+              "ToolTip": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\wwwroot\\js\\dragdrop.js",
+              "RelativeToolTip": "TaskNest.BlazorUI\\wwwroot\\js\\dragdrop.js",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-21T16:38:32.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\app.css",
+              "RelativeDocumentMoniker": "TaskNest.BlazorUI\\app.css",
+              "ToolTip": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\app.css",
+              "RelativeToolTip": "TaskNest.BlazorUI\\app.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-21T17:07:36.324Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

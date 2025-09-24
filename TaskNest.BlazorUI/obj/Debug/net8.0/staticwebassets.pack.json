@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TaskNest.BlazorUI.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TaskNest.BlazorUI.f0hud1famn.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\PP\\TaskNest_App\\TaskNest.BlazorUI\\TaskNest.BlazorUI\\wwwroot\\js\\dragdrop.js",
+      "PackagePath": "staticwebassets\\js\\dragdrop.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TaskNest.BlazorUI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TaskNest.BlazorUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TaskNest.BlazorUI.props",
+      "PackagePath": "build\\TaskNest.BlazorUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TaskNest.BlazorUI.props",
+      "PackagePath": "buildMultiTargeting\\TaskNest.BlazorUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TaskNest.BlazorUI.props",
+      "PackagePath": "buildTransitive\\TaskNest.BlazorUI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

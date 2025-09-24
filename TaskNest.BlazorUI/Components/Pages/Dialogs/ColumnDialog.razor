@@ -1,0 +1,18 @@
+﻿<RadzenTemplateForm TItem="BoardColumnDto" Data="@Column" Submit="@Submit">
+    <RadzenStack Orientation="Orientation.Vertical" Gap="1rem">
+        <RadzenFormField Text="Name" Variant="Variant.Outlined">
+            <RadzenTextBox @bind-Value="@Column.Name" Name="Name" />
+            <RadzenRequiredValidator Component="Name" Text="Name is required" />
+        </RadzenFormField>
+
+        <RadzenFormField Text="Order" Variant="Variant.Outlined">
+            <RadzenNumeric @bind-Value="@Column.Order" Name="Order" />
+            <RadzenRequiredValidator Component="Order" Text="Order is required" />
+        </RadzenFormField>
+
+        <RadzenStack Orientation="Orientation.Horizontal" JustifyContent="JustifyContent.End" Gap="0.5rem" Class="mt-3">
+            <RadzenButton Text="Cancel" ButtonStyle="ButtonStyle.Light" Click="@(() => DialogService.Close(null))" />
+            <RadzenButton Text="Save" ButtonType="ButtonType.Submit" ButtonStyle="ButtonStyle.Primary" />
+        </RadzenStack>
+    </RadzenStack>
+</RadzenTemplateForm>

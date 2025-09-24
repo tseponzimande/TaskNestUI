@@ -1,0 +1,80 @@
+﻿@page "/home-page"
+@using Microsoft.AspNetCore.Components.Authorization
+
+
+
+<RadzenStack Orientation="Orientation.Vertical" Gap="2rem" Class="rz-p-4">
+    <RadzenCard Style="background: linear-gradient(135deg, #6B73FF 0%, #000DFF 100%); color: white;">
+        <RadzenStack Orientation="Orientation.Vertical" Gap="1rem" Class="rz-p-4">
+            <RadzenText TextStyle="TextStyle.DisplayH3" Class="rz-mb-0">Welcome to TaskNest</RadzenText>
+            <RadzenText TextStyle="TextStyle.H6" Class="rz-mb-4">A lightweight, API-driven task and project management system</RadzenText>
+            
+            <AuthorizeView>
+                <Authorized>
+                    <RadzenButton Text="Go to My Boards" Icon="dashboard" Click="@(() => NavigationManager.NavigateTo("/boards"))" 
+                                 ButtonStyle="ButtonStyle.Light" Size="ButtonSize.Large" />
+                </Authorized>
+                <NotAuthorized>
+                    <RadzenStack Orientation="Orientation.Horizontal" Gap="1rem">
+                        <RadzenButton Text="Login" Icon="login" Click="@(() => NavigationManager.NavigateTo("/login"))" 
+                                     ButtonStyle="ButtonStyle.Light" Size="ButtonSize.Large" />
+                        <RadzenButton Text="Register" Icon="person_add" Click="@(() => NavigationManager.NavigateTo("/register"))" 
+                                     ButtonStyle="ButtonStyle.Secondary" Size="ButtonSize.Large" />
+                    </RadzenStack>
+                </NotAuthorized>
+            </AuthorizeView>
+        </RadzenStack>
+    </RadzenCard>
+    
+    <RadzenRow>
+        <RadzenColumn Size="12" SizeMD="4" Class="rz-mb-4">
+            <RadzenCard>
+                <RadzenStack Orientation="Orientation.Vertical" Gap="1rem" AlignItems="AlignItems.Center" Class="text-center">
+                    <RadzenIcon Icon="dashboard" Style="font-size: 3rem; color: #6B73FF;" />
+                    <RadzenText TextStyle="TextStyle.H5">Organize with Boards</RadzenText>
+                    <RadzenText TextStyle="TextStyle.Body1">Create boards to represent projects or workflows</RadzenText>
+                </RadzenStack>
+            </RadzenCard>
+        </RadzenColumn>
+        
+        <RadzenColumn Size="12" SizeMD="4" Class="rz-mb-4">
+            <RadzenCard>
+                <RadzenStack Orientation="Orientation.Vertical" Gap="1rem" AlignItems="AlignItems.Center" Class="text-center">
+                    <RadzenIcon Icon="task_alt" Style="font-size: 3rem; color: #6B73FF;" />
+                    <RadzenText TextStyle="TextStyle.H5">Track with Tasks</RadzenText>
+                    <RadzenText TextStyle="TextStyle.Body1">Break down work into manageable tasks with due dates</RadzenText>
+                </RadzenStack>
+            </RadzenCard>
+        </RadzenColumn>
+        
+        <RadzenColumn Size="12" SizeMD="4" Class="rz-mb-4">
+            <RadzenCard>
+                <RadzenStack Orientation="Orientation.Vertical" Gap="1rem" AlignItems="AlignItems.Center" Class="text-center">
+                    <RadzenIcon Icon="people" Style="font-size: 3rem; color: #6B73FF;" />
+                    <RadzenText TextStyle="TextStyle.H5">Collaborate</RadzenText>
+                    <RadzenText TextStyle="TextStyle.Body1">Invite team members to collaborate on boards</RadzenText>
+                </RadzenStack>
+            </RadzenCard>
+        </RadzenColumn>
+    </RadzenRow>
+    
+    <RadzenCard>
+        <RadzenText TextStyle="TextStyle.H5" Class="mb-3">Features</RadzenText>
+        <RadzenRow>
+            <RadzenColumn Size="12" SizeMD="6">
+                <ul>
+                    <li><RadzenText TextStyle="TextStyle.Body1">Create and organize boards</RadzenText></li>
+                    <li><RadzenText TextStyle="TextStyle.Body1">Add tasks with descriptions and due dates</RadzenText></li>
+                    <li><RadzenText TextStyle="TextStyle.Body1">Organize tasks in customizable columns</RadzenText></li>
+                </ul>
+            </RadzenColumn>
+            <RadzenColumn Size="12" SizeMD="6">
+                <ul>
+                    <li><RadzenText TextStyle="TextStyle.Body1">Drag and drop tasks between columns</RadzenText></li>
+                    <li><RadzenText TextStyle="TextStyle.Body1">Collaborate with team members</RadzenText></li>
+                    <li><RadzenText TextStyle="TextStyle.Body1">Filter and search tasks</RadzenText></li>
+                </ul>
+            </RadzenColumn>
+        </RadzenRow>
+    </RadzenCard>
+</RadzenStack>

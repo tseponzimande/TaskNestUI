@@ -1,0 +1,38 @@
+﻿@page "/boards"
+
+<RadzenStack Orientation="Orientation.Vertical" Gap="1rem" Class="mb-4">
+    <RadzenStack Orientation="Orientation.Horizontal" JustifyContent="JustifyContent.SpaceBetween" AlignItems="AlignItems.Center">
+        <RadzenText TextStyle="TextStyle.H3">My Boards</RadzenText>
+        <RadzenButton Text="Create New Board" Icon="add" ButtonStyle="ButtonStyle.Primary" Click="@ShowCreateBoardDialog" />
+    </RadzenStack>
+</RadzenStack>
+
+<RadzenProgressBar Value="100" Visible="@loading" Mode="ProgressBarMode.Indeterminate" />
+
+@if (!loading && (boards == null || !boards.Any()))
+{
+    <RadzenAlert AlertStyle="AlertStyle.Info" ShowIcon="true" Variant="Variant.Filled">
+        No boards found. Create your first board to get started!
+    </RadzenAlert>
+}
+else if (!loading)
+{
+    <div class="row">
+        @foreach (var board in boards)
+        {
+            <div class="col-md-4 mb-4">
+                <RadzenCard class="h-100">
+                    <RadzenStack Orientation="Orientation.Vertical" Gap="0.5rem">
+                        <RadzenText TextStyle="TextStyle.H5">@board.Name</RadzenText>
+                        <RadzenText TextStyle="TextStyle.Body1">@board.Description</RadzenText>
+                        <RadzenStack Orientation="Orientation.Horizontal" JustifyContent="JustifyContent.End" Gap="0.5rem" Class="mt-3">
+                            <RadzenButton Text="View" Icon="visibility" ButtonStyle="ButtonStyle.Light" Click="() => ViewBoard(board.Id)" />
+                            <RadzenButton Text="Edit" Icon="edit" ButtonStyle="ButtonStyle.Light" Click="() => EditBoard(board)" />
+                            <RadzenButton Text="Delete" Icon="delete" ButtonStyle="ButtonStyle.Light" Click="() => ConfirmDeleteBoard(board.Id)" />
+                        </RadzenStack>
+                    </RadzenStack>
+                </RadzenCard>
+            </div>
+        }
+    </div>
+}

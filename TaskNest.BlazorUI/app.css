@@ -1,0 +1,52 @@
+﻿/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .board-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .board-column {
+        min-width: 100%;
+        max-width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .column-tasks {
+        max-height: 300px;
+    }
+}
+
+/* Improve task cards */
+.task-card {
+    transition: all 0.2s ease;
+    border-left: 4px solid #6B73FF;
+}
+
+    .task-card:hover {
+        transform: translateY(-2px);
+    }
+
+/* Add badge styles for task priorities or labels */
+.task-badge {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    border-radius: 1rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-right: 0.5rem;
+}
+
+.task-badge-high {
+    background-color: #ffebee;
+    color: #d32f2f;
+}
+
+.task-badge-medium {
+    background-color: #fff8e1;
+    color: #ff8f00;
+}
+
+.task-badge-low {
+    background-color: #e8f5e9;
+    color: #388e3c;
+}

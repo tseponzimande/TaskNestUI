@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="/" />
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="TaskNest.BlazorUI.styles.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <script src="_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication/AuthenticationService.js"></script>
+    <script src="_framework/blazor.server.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.min.js"></script>
+
+
+    <link href="_content/Radzen.Blazor/css/default-base.css" rel="stylesheet">
+    <link href="_content/Radzen.Blazor/css/default.css" rel="stylesheet">
+    <HeadOutlet @rendermode="InteractiveServer" />
+    <RadzenTheme Theme="Standard" @rendermode="InteractiveServer" />
+</head>
+
+<body>
+
+    <style>
+        /* Custom styles for drag and drop */
+        .task-ghost {
+            opacity: 0.5;
+            background: #c8ebfb;
+        }
+
+        .task-chosen {
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        }
+
+        .task-drag {
+            transform: rotate(3deg);
+        }
+
+        /* Board layout styles */
+        .board-container {
+            display: flex;
+            overflow-x: auto;
+            padding-bottom: 1rem;
+            gap: 1rem;
+            min-height: 70vh;
+        }
+
+        .board-column {
+            background-color: #f1f3f5;
+            border-radius: 0.5rem;
+            min-width: 300px;
+            max-width: 300px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .column-header {
+            padding: 0.75rem;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .column-tasks {
+            padding: 0.75rem;
+            flex-grow: 1;
+            overflow-y: auto;
+            min-height: 200px;
+        }
+
+        .task-card {
+            background-color: white;
+            border-radius: 0.25rem;
+            padding: 0.75rem;
+            margin-bottom: 0.75rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            cursor: pointer;
+        }
+
+            .task-card:hover {
+                box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            }
+    </style>
+
+    <Routes @rendermode="InteractiveServer" />
+    <script src="_framework/blazor.web.js"></script>
+    <script src="_content/Radzen.Blazor/Radzen.Blazor.js?v=@(typeof(Radzen.Colors).Assembly.GetName().Version)"></script>
+</body>
+
+</html>
